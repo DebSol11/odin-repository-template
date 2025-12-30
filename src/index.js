@@ -1,4 +1,4 @@
 import "./styles.css";
-import { module1 } from "./module1.js";
+import * as generalFunctions from "./generalFunctions";
 
-console.log(module1);
+console.log(generalFunctions.isPrime(44));
